@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables</title>
+    <style>
+        table, th, td
+        {
+            border:1px solid black;
+        }
+
+        /* tr#t4 td:nth-child(2)
+        {
+            background-color: blue;
+            color:white;
+        }
+        tr#t2 td:nth-child(3)
+        {
+            color:blue;
+        }  */
+        
+    </style>
+</head>
+<body>
+    <!-- 
+
+    1. <table></table>
+    2. <tr></tr> - Table Row
+    3. <th></th> - Table Heading
+    4. <td></td> - Table Data
+    5. <col>
+    6. <colspan></colspan>
+    7. <caption></caption>
+    8. <thead></thead> - Table Header
+    9. <tbody></tbody> - Table Body
+    10. <tfoot></tfoot> - Table Footer 
+
+    -->
+
+    <caption>Table 1</caption>
+    <table>
+        <colspan>
+            <col span="7" style="background-color: white;">
+            <col span="1" style="background-color: yellow;">
+            <col span="4" style="background-color: blue;">
+        </colspan>
+        <tr>
+            <th>S No.</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>S No.</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>S No.</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>S No.</th>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr id="t2">
+            <td>1.</td>
+            <td>Boopalan S</td>
+            <td>18</td>
+            <td>1.</td>
+            <td>Boopalan S</td>
+            <td>18</td>
+            <td>1.</td>
+            <td>Boopalan S</td>
+            <td>18</td>
+            <td>1.</td>
+            <td>Boopalan S</td>
+            <td>18</td>
+            
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Nanthigadevi</td>
+            <td>16</td>
+            <td>2.</td>
+            <td>Nanthigadevi</td>
+            <td>16</td>
+            <td>2.</td>
+            <td>Nanthigadevi</td>
+            <td>16</td>
+            <td>2.</td>
+            <td>Nanthigadevi</td>
+            <td>16</td>
+        </tr>
+        <tr id="t4">
+            <td>3.</td>
+            <td>Vijayakumar</td>
+            <td>17</td>
+            <td>3.</td>
+            <td>Vijayakumar</td>
+            <td>17</td>
+            <td>3.</td>
+            <td>Vijayakumar</td>
+            <td>17</td>
+            <td>3.</td>
+            <td>Vijayakumar</td>
+            <td>17</td>
+        </tr>
+    </table>
+</body>
+</html>
